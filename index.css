@@ -3,3 +3,114 @@ body {
   height: 300vh;
   margin: 0;
 }
+
+.nav_cont{
+  height:100px;
+  width:100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.nav{
+  width:95%;
+  height: 60%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_left, .nav_right{
+  width: 18%;
+  height: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+.nav_center{
+  width: 51%;
+  height: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+.first_view{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: auto;
+}
+
+#heading{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#main_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.heading{
+  width:80%;
+}
+
+.main_pic{
+  width:55%;
+  position :absolute;
+  top:70%;
+}
+
+.first_view_txt{
+  position: absolute;
+  font-size: 16px;
+}
+
+#t1{
+  right:18%;
+  top:100%;
+  font-weight: bold;
+  width:15%;
+  text-align: center;
+}
+
+#t2{
+  right:12%;
+  top:150%;
+  font-weight: normal;
+  width:15%;
+  text-align: left;
+}
+
+#t3{
+  right:42%;
+  top:280%;
+  font-weight: normal;
+  width:12%;
+  text-align: center;
+}
+
+#t4{
+  left:16%;
+  top:200%;
+  font-weight: normal;
+  width:12%;
+  text-align: center;
+}
+
+#t5{
+  left:16%;
+  top:130%;
+  font-weight: normal;
+  width:10%;
+  text-align: center;
+}
