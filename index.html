@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <title>Document</title>
@@ -33,13 +34,21 @@
         </div>
 
         <div class="mobl_nav">
+
             <div class="mobl_nav_left">
                 <img src="icons/fec_logo.svg" alt="" style="height:90%; width: auto;">
                 <div style="height:70%; width:1px; background-color: black; margin: 0px 12px 0px 12px;"></div>
                 <img src="icons/bootcamp_icon.svg" alt="" style="height:60%; width: auto;">
             </div>
 
-            <div class="mobl_nav_right">
+            <div class="mobl_nav_btns">
+                <button>About</button>
+                <button>Curriculum</button>
+                <button>Quiz</button>
+                <button>Project</button>
+            </div>
+
+            <div class="mobl_nav_right" id="menu_btn">
                 <img src="icons/menu.svg" alt="">
             </div>
         </div>
@@ -80,7 +89,7 @@
             <div class="yellow_bar">
                 <img src="icons/side_img.png" alt="">
                 <div class="yellow_bar_text">
-                    <h2 style="font-weight: 700; font-size: 32px;">ABOUT THE COURSE</h2>
+                    <span style="font-weight: 700; font-size: 32px;">ABOUT THE COURSE</span><br>
                     The Fundamental Analysis Bootcamp is a beginner-friendly, hands-on journey into the world of stock
                     market investing. Over 2 weeks, participants will learn to decode financial statements, understand
                     valuation metrics, and assess a company’s true worth — making them confident and self-sufficient
@@ -220,6 +229,50 @@
                             quiz of the bootcamp. (Day 11 till 13)
                         </p>
                     </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="footer_part_cont">
+                
+                    <div class="sub">
+                        <img id="doller" src="icons/side_img2.png">
+                        <div class="text">
+                            <h id="headcapstone">CAPSTONE PROJECT</h>
+                            <p id="paragraph">The Capstone project encompasses the ideas and learnings which were
+                                provided throughout the bootcamp in a fun yet insightful manner. We highly recommend to
+                                complete the project to get the best out of the course!</p>
+                            <div>
+                            <button class="capbtn">Project Details</button>
+                            <button class="capbtn">Submission</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+                <div class="bottom">
+                    <div class="head2">
+                        <h id="headbottom">Let’s Master & Grow together…</h>
+                        <p id="parabottom">Connect with us</p>
+                    </div>
+                    <div class="buttons">
+                        <div>
+                        <button class="btn"><i class="fa-brands fa-square-instagram"></i> <div>Instagram</div></button>
+                        <button class="btn"><i class="fa-brands fa-linkedin"></i> <div>Linked-in</div></button>
+                        <button class="btn"><i class="fa-brands fa-square-twitter"></i> <div>Twitter</div></button>
+                        </div>
+                        <div>
+                        <button class="btn"><i class="fa-brands fa-square-whatsapp"></i> <div>Whatsapp</div></button>
+                        <button class="btn"><i class="fa-brands fa-square-youtube"></i> <div>Youtube</div></button>
+                        <button class="btn"><i class="fa-brands fa-square-facebook"></i> <div>Facebook</div></button>
+                        </div>
+                    </div>
+                    <div class="fec">
+                        <h>Finance and Economics Club</h>
+                        <h> IIT Guwahati</h>
+                    </div>
+
                 </div>
             </div>
         </div>
